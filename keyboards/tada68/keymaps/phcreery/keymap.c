@@ -38,7 +38,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case PAS_1:{
       if (record->event.pressed) {
         // when keycode QMKBEST is pressed
-        SEND_STRING("a0487637");
+        SEND_STRING("user");
       } else {
         // when keycode QMKBEST is released
       }
@@ -47,7 +47,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case PAS_2:{
       if (record->event.pressed) {
         // when keycode QMKURL is pressed
-        SEND_STRING("4Jar8BkY");
+        SEND_STRING("pass");
       } else {
         // when keycode QMKURL is released
       }
