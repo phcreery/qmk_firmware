@@ -13,10 +13,10 @@ const keypos_t hand_swap_config[MATRIX_ROWS][MATRIX_COLS] = {
 __attribute__ ((weak))
 void matrix_init_kb(void) {
 	// Turn status LED on
-	#ifdef __AVR__
-	setPinOutput(E6);
-	writePinHigh(E6);
-	#endif
+	// #ifdef __AVR__
+	// setPinOutput(E6);
+	// writePinHigh(E6);
+	// #endif
 
 	matrix_init_user();
 }
